@@ -1,0 +1,116 @@
+Test 1 - Student details function implementation
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Student ID is using the correct data type (int) - [2 marks]
+Student ID is correct - [2 marks]
+You scored a total of [5 marks] on this function implementation, with a running time of 0.0001 seconds
+
+Test 2 - Map generation function implementation
+Testing with an x range of 300, a y range of 300 and 300 locations
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Correct data type for map generated - [3 marks]
+Map generated contained correct number of cities - [3 marks]
+Map generated coordinates within defined parameters - [3 marks]
+Map generated coordinates not utilising negative range
+Map generated coordinates utilising full positive x range - [1 mark]
+Map generated coordinates are not utilising full negative x range
+Map generated coordinates utilising full positive y range - [1 mark]
+Map generated coordinates are not utilising full negative y range
+You scored a total of [12 marks] on this function implementation, with a running time of 5.4001 seconds
+
+Test 3 - Path calculation function implementation
+Testing path calculation with a map containing 60 locations
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Correct data type used to output path calculation - [7 marks]
+Calculation incorrect for original path, distance was quoted as: 18311.7968, but should have been: 18638.7524
+You scored a total of [8 marks] on this function implementation, with a running time of 0.5286 seconds
+
+Test 4 - Print function implementation
+Testing print function with a map containing 60 locations
+Correct path is shown in a thin green line, your path should be shown in a think red line if you have implemented the function correctly. Your line should follow the green line correctly, any deviations from this are errors and marks will have been deducted.
+For the printing map function you scored - [4 marks], with a running time of 5.2663 seconds
+
+Test 5 - Nearest neighbour algorithm function implementation
+Testing nearest neighbour algorithm with a map containing 60 locations
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Returning correct data type (list) - [5 marks]
+Nearest neighbour algorithm is using all original provided locations - [2 marks]
+Nearest neighbour algorithm is correct and created a path distance of: 5650.656648329602 - [7 marks]
+You scored a total of [15 marks] on this function implementation, with a running time of 2.4395 seconds
+
+Test 6 - Create population function implementation
+Testing genetic algorithm - create_population with a map containing 60 locations and a population of 42
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Gene pool contains correct number of individuals - [2 marks]
+Individuals in gene pool are correct and contain all locations - [2 marks]
+Individuals in gene pool are not in a random order, this is incorrect
+You scored a total of [5 marks] on this function implementation, with a running time of 0.0066 seconds
+
+Test 7 - Fitness function implementation
+Testing genetic algorithm - fitness_function with a map containing 60 locations and a population of 87
+Function found successfully
+Incorrect number of arguments found
+Incorrect number of values returned, should have been 2 values returned
+Cannot access Genetic algorithm - fitness_function
+You scored a total of [0 marks] on this function implementation, with a running time of 0.033 seconds
+
+Test 8 - Mating function implementation
+Testing genetic algorithm - mating_function with a map containing 60 locations and a population of 49, mutation_rate of 0.5, and an elite_threshold of 0.1
+Function found successfully
+Incorrect number of arguments found
+Incorrect number of values returned, should have been 1 value returned
+Cannot access Genetic algorithm - mating_function
+You scored a total of [0 marks] on this function implementation, with a running time of 0.0192 seconds
+
+Test 9 - Breeding function implementation
+Testing genetic algorithm - breed function with a map containing 60 locations and 2 parents pre-selcted from the gene pool
+Function found successfully
+Correct number of arguments found
+Correct number of values returned - [1 mark]
+Individual output contains correct number of locations - [1 mark]
+Individual output is correct and contain all locations - [2 marks]
+Breed function is working correctly - [2 marks]
+Parent #1 genes were: [[-164, -284], [94, 79], [-145, 173], [-99, -156], [85, -2], [280, 127], [102, -154], [-180, -148], [310, -344], [-54, -152], [-147, -48], [-189, -255], [-350, 292], [2, -25], [168, -271], [-44, 309], [136, 167], [-275, -19], [55, 22], [258, -209], [-313, -184], [-130, 26], [340, -267], [203, -176], [291, -116], [234, 59], [-55, 87], [-155, -193], [-224, 2], [10, -160], [240, -246], [-22, -87], [-11, -273], [321, 8], [180, 346], [-68, -6], [-211, -314], [243, -246], [91, 197], [35, 93], [100, -86], [163, -117], [-43, -331], [275, 205], [-210, -31], [-181, 44], [284, -60], [141, -109], [25, -343], [332, 290], [290, 186], [34, 231], [-308, -250], [197, -171], [-310, -110], [-21, 104], [225, 324], [-154, -3], [126, -272], [266, -70]]
+Parent #2 genes were: [[100, -86], [280, 127], [-130, 26], [163, -117], [-181, 44], [-224, 2], [-310, -110], [-164, -284], [-211, -314], [225, 324], [-180, -148], [-350, 292], [332, 290], [275, 205], [35, 93], [-43, -331], [290, 186], [197, -171], [-21, 104], [94, 79], [55, 22], [180, 346], [321, 8], [91, 197], [234, 59], [-275, -19], [-54, -152], [-155, -193], [-308, -250], [291, -116], [243, -246], [258, -209], [-313, -184], [-22, -87], [141, -109], [85, -2], [126, -272], [-189, -255], [340, -267], [-99, -156], [-154, -3], [10, -160], [136, 167], [-147, -48], [25, -343], [-55, 87], [203, -176], [310, -344], [-68, -6], [102, -154], [-11, -273], [34, 231], [284, -60], [266, -70], [-44, 309], [168, -271], [-145, 173], [-210, -31], [2, -25], [240, -246]]
+Offspring child genes were: [[-310, -110], [-21, 104], [225, 324], [-154, -3], [100, -86], [280, 127], [-130, 26], [163, -117], [-181, 44], [-224, 2], [-164, -284], [-211, -314], [-180, -148], [-350, 292], [332, 290], [275, 205], [35, 93], [-43, -331], [290, 186], [197, -171], [94, 79], [55, 22], [180, 346], [321, 8], [91, 197], [234, 59], [-275, -19], [-54, -152], [-155, -193], [-308, -250], [291, -116], [243, -246], [258, -209], [-313, -184], [-22, -87], [141, -109], [85, -2], [126, -272], [-189, -255], [340, -267], [-99, -156], [10, -160], [136, 167], [-147, -48], [25, -343], [-55, 87], [203, -176], [310, -344], [-68, -6], [102, -154], [-11, -273], [34, 231], [284, -60], [266, -70], [-44, 309], [168, -271], [-145, 173], [-210, -31], [2, -25], [240, -246]]
+You scored a total of [6 marks] on this function implementation, with a running time of 0.0166 seconds
+
+Test 10 - Mutation function implementation
+Testing genetic algorithm - mutate function with a map containing 60 and a mutation rate of 0.5
+Function found successfully
+Correct number of arguments found
+Correct number of values returned
+Individual output contains correct number of locations
+Individual output is correct and contain all locations
+Individual output has changed suggesting that some mutations have taken place - [3 marks]
+36 mutations have taken place with a mutation rate of 0.5 - [3 marks]
+You scored a total of [6 marks] on this function implementation, with a running time of 0.0004 seconds
+
+Test 11 - Iterator function implementation
+Testing genetic algorithm - iterator function with a map containing 60 locations, a population of 70, mutation_rate of 0.01, and an elite_threshold of 0.1
+In order to pass this test the algorithm must improve the fitness of the best individual by at least 20%
+Genetic algorithm - iterator function not found
+Incorrect number of values returned, should have been 1 value returned
+Cannot access Genetic algorithm - iterator function
+You scored a total of [0 marks] on this function implementation, with a running time of 0.0145 seconds
+
+Test 12 - Full run of genetic algorithm with population of 100, 1000 iterations, a mutation rate of 0.01 and an elite threshold of 0.1
+In order to pass this test the algorithm must improve the fitness of the best individual by at least 50%
+Function found successfully
+Correct number of arguments found
+Incorrect number of values returned, should have been 1 value returned
+Cannot access genetic algorithm
+You scored a total of [0 marks] on this function implementation, with a running time of 49.7455 seconds
+The path distances for a 60 location problem were as follows:
+Original path distance: 18638.75242102206
+Nearest neighbour algorithm path distance: 5650.656648329602
+You achieved 61% in this assignment with a total testing time of 63.4704 second
